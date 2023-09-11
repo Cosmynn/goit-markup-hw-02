@@ -5,9 +5,10 @@
   --black: #000000;
   --inactive-link: #212121;
   --inactive-link2: #757575;
-  --main: #2f303a;
+  --main-section: #2f303a;
   --white: #ffffff;
   --details-color: #757575;
+  --our-team: #f5f4fa;
 }
 
 body {
@@ -83,7 +84,7 @@ ul {
 
 /*-------------------------------------Main---------------------*/
 .main {
-  background-color: var(--main);
+  background-color: var(--main-section);
 }
 .main-title {
   font-size: 44px;
@@ -123,4 +124,31 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-color);
+}
+.main-background {
+  background-color: var(--our-team);
+}
+.main-our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-our-team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-our-team-name-job {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--details-color);
 }
