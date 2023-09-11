@@ -4,6 +4,9 @@
   --link-color: #2196f3;
   --black: #000000;
   --inactive-link: #212121;
+  --inactive-link2: #757575;
+  --main: #2f303a;
+  --white: #ffffff;
 }
 
 body {
@@ -50,4 +53,41 @@ ul {
 .main-nav-ul a:visited:hover,
 .main-nav-ul a:visited:focus {
   color: var(--link-color);
+}
+
+.global-header-contact a[href^="mailto"],
+.global-header-contact a[href^="tel"] {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--inactive-link);
+}
+.global-header-contact a {
+  text-decoration: none;
+}
+
+.global-header-contact a:active,
+.global-header-contact a:hover,
+.global-header-contact a:focus,
+.global-header-contact a:visited:active,
+.global-header-contact a:visited:hover,
+.global-header-contact a:visited:focus {
+  color: var(--link-color);
+}
+.global-header-contact a:visited {
+  color: var(--inactive-link2);
+}
+
+/*-------------------------------------Main---------------------*/
+.main {
+  background-color: var(--main);
+}
+.main-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--white);
 }
