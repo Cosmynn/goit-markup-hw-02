@@ -1,2 +1,53 @@
 :root {
+  --main-color: #212121;
+  --web-color: #2196f3;
+  --link-color: #2196f3;
+  --black: #000000;
+  --inactive-link: #212121;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+ul {
+  list-style-type: none;
+}
+/*---------------Header-----------------------*/
+.logo-link {
+  text-decoration: none;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--web-color);
+}
+.logo-studio {
+  color: var(--black);
+}
+/* Header Navigation */
+
+.global-header .main-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--inactive-link);
+}
+.global-header .main-nav a {
+  text-decoration: none;
+}
+.current {
+  color: var(--link-color);
+}
+.main-nav-ul a:active,
+.main-nav-ul a:hover,
+.main-nav-ul a:focus,
+.main-nav-ul a:visited:active,
+.main-nav-ul a:visited:hover,
+.main-nav-ul a:visited:focus {
+  color: var(--link-color);
 }
