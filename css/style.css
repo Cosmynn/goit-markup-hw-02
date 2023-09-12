@@ -9,6 +9,8 @@
   --white: #ffffff;
   --details-color: #757575;
   --our-team: #f5f4fa;
+  --footer-color: #2f303a;
+  --footer-color-contact: rgba(100%, 100%, 100%, 60%);
 }
 
 body {
@@ -94,7 +96,6 @@ ul {
   text-align: center;
   color: var(--white);
 }
-/*-------------------------------------de lucrat---------------------*/
 .main-buton {
   font-size: 16px;
   font-weight: 700;
@@ -158,7 +159,7 @@ ul {
   text-align: center;
   color: var(--details-color);
 }
-/* ----------------------------------- Portofolio - Main -----------------------------------*/
+/* ----------------------------------- Portfolio-main -----------------------------------*/
 .button-list {
   font-family: inherit;
   font-size: 16px;
@@ -188,4 +189,52 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--details-color);
+}
+/* ---------------------- Footer --------------------*/
+.global-footer {
+  background-color: var(--footer-color);
+}
+.logo-link {
+  text-decoration: none;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-web-footer {
+  color: var(--web-color);
+}
+.logo-studio-footer {
+  color: var(--white);
+}
+.address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.footer-adress {
+  color: var(--white);
+}
+
+.address a[href^="mailto"],
+.address a[href^="tel"] {
+  color: var(--footer-color-contact);
+}
+.address a {
+  text-decoration: none;
+}
+.address a:active,
+.address a:hover,
+.address a:focus,
+.address a:visited:active,
+.address a:visited:hover,
+.address a:visited:focus {
+  color: var(--link-color);
+}
+.address a:visited {
+  color: var(--inactive-link2);
 }
