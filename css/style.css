@@ -11,6 +11,7 @@
   --our-team: #f5f4fa;
   --footer-color: #2f303a;
   --footer-color-contact: rgba(100%, 100%, 100%, 60%);
+  --color-buton-focus: #1ea3d9;
 }
 
 body {
@@ -89,26 +90,27 @@ ul {
   background-color: var(--main-section);
 }
 .main-title {
-  font-size: 44px;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 2%;
+  letter-spacing: 6%;
   text-align: center;
   color: var(--white);
 }
 .main-buton {
-  font-size: 16px;
+  width: 200px;
+  height: 50px;
   font-weight: 700;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 6%;
-  text-align: right;
   color: var(--white);
-  background-color: var(--link-color);
+  background-color: var(--web-color);
   border: none;
   cursor: pointer;
 }
 .main-buton:hover {
-  background-color: var(--link-color);
+  background-color: var(--color-buton-focus);
 }
 .main-skil {
   font-size: 14px;
@@ -160,8 +162,7 @@ ul {
   color: var(--details-color);
 }
 /* ----------------------------------- Portfolio-main -----------------------------------*/
-.button-list {
-  font-family: inherit;
+.button-list button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
