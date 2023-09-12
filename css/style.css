@@ -158,3 +158,34 @@ ul {
   text-align: center;
   color: var(--details-color);
 }
+/* ----------------------------------- Portofolio - Main -----------------------------------*/
+.button-list {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+.button-list button:hover,
+.button-list button:active,
+.button-list button:focus {
+  color: var(--white);
+  background-color: var(--link-color);
+}
+.main-title-images {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.main-title-images-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--details-color);
+}
