@@ -29,7 +29,6 @@ ul {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 3%;
 }
 .logo-web {
   color: var(--web-color);
@@ -43,7 +42,6 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 2%;
   color: var(--inactive-link);
 }
 .global-header .main-nav a {
@@ -93,7 +91,6 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 6%;
   text-align: center;
   color: var(--white);
 }
@@ -103,7 +100,6 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 6%;
   color: var(--white);
   background-color: var(--web-color);
   border: none;
@@ -116,21 +112,18 @@ ul {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 3%;
   color: var(--main-color);
 }
 .main-skil-details {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 3%;
   color: var(--details-color);
 }
 .main-what_we_do {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--main-color);
 }
@@ -141,7 +134,6 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--main-color);
 }
@@ -149,7 +141,6 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--main-color);
 }
@@ -157,7 +148,6 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--details-color);
 }
@@ -166,7 +156,6 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
-  letter-spacing: 3%;
   color: var(--main-color);
   border: none;
   cursor: pointer;
@@ -181,14 +170,12 @@ ul {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  letter-spacing: 6%;
   color: var(--main-color);
 }
 .main-title-images-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
-  letter-spacing: 3%;
   color: var(--details-color);
 }
 /* ---------------------- Footer --------------------*/
@@ -203,7 +190,6 @@ ul {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 3%;
 }
 .logo-web-footer {
   color: var(--web-color);
@@ -215,7 +201,6 @@ ul {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.14;
-  letter-spacing: 3%;
 }
 .footer-adress {
   color: var(--white);
