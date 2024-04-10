@@ -64,7 +64,6 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 2%;
   color: var(--inactive-link2);
 }
 .global-header-contact a {
